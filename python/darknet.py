@@ -29,7 +29,7 @@ class DETECTION(Structure):
                 ("prob", POINTER(c_float)),
                 ("mask", POINTER(c_float)),
                 ("objectness", c_float),
-                ("sort_class", c_int)]
+                ("sort_class", c_int)]#hey
 
 
 class IMAGE(Structure):
