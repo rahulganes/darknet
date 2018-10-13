@@ -21,7 +21,7 @@ def predict_tactic(net, s):
         prob += math.log(pred[ind])
         if len(tac) and tac[-1] == '.':
             break
-        tac = tac + c
+        tac = tac + c #hey
     return (tac, prob)
 
 def predict_tactics(net, s, n):
